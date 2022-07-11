@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bebasneue/v9/JTUSjIg69CK48gW7PXooxW4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVuEooCP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaooCP.ttf) format('truetype');
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font: 400 36px 'Bebas Neue', sans-serif;
+  text-align: center;
+}
+main {
+  background-color: silver;
+}
+.milestones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 25px;
+}
+.milestone__card {
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background-color: white;
+  width: 200px;
+}
+.milestone__card p {
+  margin: 0;
+}
+.milestone__card .icon {
+  display: block;
+  width: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.milestone__card .title {
+  font: 400 22px 'Bebas Neue', sans-serif;
+}
+.milestone__card .date {
+  text-align: center;
+  font: 700 14px 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+.milestone__card .description {
+  font: 400 16px 'Raleway', sans-serif;
+  color: black;
+  text-align: center;
+}
