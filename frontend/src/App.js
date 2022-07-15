@@ -1,10 +1,11 @@
 import React from 'react';
-import data from "./data";
+import Header from './components/Header';
+import data from './data';
 
 function App() {
   return (
     <>
-      <header>Leo's WebDev Milestones <i class="fa-solid fa-rocket"></i></header>
+      <Header />
       <main>
         <section className="milestones">
           {
